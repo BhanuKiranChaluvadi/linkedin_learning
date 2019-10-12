@@ -1,7 +1,9 @@
+#!/usr/bin/python3
 """S.O.L.I.D Design.
 
 Chapter 1, Introduction. Part 2.
 """
+
 
 import random
 
@@ -21,7 +23,7 @@ class Card:
 class Shoe(Card):
     def __init__(self, n):
         super().__init__()
-        self.shoe = []
+        self.shoe = [] 
         for _ in range(n): self.shoe.extend(self.cards)
         random.shuffle(self.shoe)
     def shuffle_burn(self, n=100):

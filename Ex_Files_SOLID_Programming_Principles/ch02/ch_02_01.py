@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """S.O.L.I.D Design.
 
 Chapter 2, ISP. Part 1.
